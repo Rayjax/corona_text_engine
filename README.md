@@ -1,7 +1,7 @@
 Corona Text Engine
 ==================
 
-Simple text effect engine for Corona SDK multiplatform game engine
+Simple text effect engine for Corona SDK (cross-platform game engine)
 
 
 ## Usage
