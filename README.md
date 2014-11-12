@@ -46,7 +46,8 @@ If you use very big or very small font size, you should calibrate smoothnessStre
 Please know that this code uses several text layers to achieve strokes and shadows in Corona. If you have performance issues, try lowering strokeSize, smoothnessStrength or strokeQuality
 
 
-**Compatible with Graphics 2.0** ; should work with graphics 1.0 (do not forget in that case to use 0-255 values for RGBs instead of 0-1)
+**Compatible with Graphics 2.0**
+Should also work with graphics 1.0 (do not forget in that case to use 0-255 values for RGBs instead of 0-1)
 
 Have fun
 
