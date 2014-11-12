@@ -45,6 +45,7 @@ StrokeType can be "hard", "smooth", or "linearSmooth". Choose the one which best
 If you use very big or very small font size, you should calibrate smoothnessStrenght accordingly,
 Please know that this code uses several text layers to achieve strokes and shadows in Corona. If you have performance issues, try lowering strokeSize, smoothnessStrength or strokeQuality
 
+![alt tag](https://github.com/Rayjax/corona_text_engine/blob/master/example.png)
 
 **Compatible with Graphics 2.0**
 
