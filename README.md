@@ -28,11 +28,13 @@ _textEngine:createTextWithStroke(315, 1020, dg_Main, "D O G", native.systemFont,
 
 ###Short API :
 
+```lua
 createTextWithShadow(x, y, displayGroup, textContent, fontType, fontSize, textRGB, shadowOffsetX, shadowOffsetY, shadowSizeMultiplier, shadowRGB)
 
 createTextWithStroke( x, y, displayGroup, textContent, fontType, fontSize, textRGB, strokeType, strokeSize, strokeRGB, strokeQuality, smoothnessStrength)
+```
 
-Paremeters are pretty self-explanatory. 
+*Parameters are pretty self-explanatory*. 
 
 You can use custom fonts or native ones.
 
@@ -44,7 +46,7 @@ If you use very big or very small font size, you should calibrate smoothnessStre
 Please know that this code uses several text layers to achieve strokes and shadows in Corona. If you have performance issues, try lowering strokeSize, smoothnessStrength or strokeQuality
 
 
-Compatible with Graphics 2.0 ; should work with graphics 1.0 (do not forget in that case to use 0-255 values for RGBs instead of 0-1)
+**Compatible with Graphics 2.0** ; should work with graphics 1.0 (do not forget in that case to use 0-255 values for RGBs instead of 0-1)
 
 Have fun
 
