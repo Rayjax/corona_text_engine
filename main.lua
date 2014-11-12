@@ -20,3 +20,4 @@ _textEngine:createTextWithStroke(130, 360, dg_Main, "jumps", native.systemFont, 
 _textEngine:createTextWithStroke(430, 470, dg_Main, "over", native.systemFont, 155, {r=0,g=0,b=0}, "smooth", 10, {r=0,g=0.65,b=0}, 100, 100)
 _textEngine:createTextWithShadow(290, 650, dg_Main, "the lazy", native.systemFont, 165, {r=0.4,g=0.4,b=0.4}, 12, 12, 1, {r=0,g=0,b=0}, 100, 100)
 _textEngine:createTextWithStroke(315, 1020, dg_Main, "D O G", native.systemFont, 200, {r=0,g=0,b=0}, "hard", 18, {r=1,g=0.6,b=0}, 100, 100)
+text = display.newText("dwdw d", 100, 100, native.systemFont, 50)
