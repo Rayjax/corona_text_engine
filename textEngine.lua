@@ -6,7 +6,6 @@ module(..., package.seeall)
 local _sharedInstance
 
 function getInstance()
-	print("engine")
     if _sharedInstance==nil then
         _sharedInstance = _new()
     end
